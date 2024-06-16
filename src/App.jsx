@@ -5,6 +5,7 @@ import Add from "./components/Add";
 import Edit from "./components/Edit";
 import Show from "./components/Show";
 import NotFound from "./components/NotFound";
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/edit" element={<Edit />} />
           <Route path="/show" element={<Show />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="search" element={<Search />} />
         </Routes>
       </BrowserRouter>
     </>
