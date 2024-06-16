@@ -1,0 +1,35 @@
+.contain {
+  height: 32.5em;
+  background-color: rgb(234, 215, 247);
+}
+
+.Fcontain {
+  position: absolute;
+  bottom: 0%;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(197, 184, 197);
+}
+
+.table-secondary {
+  width: 70%;
+  padding: 53px;
+  /* height: 100%; */
+  text-align: center;
+  margin: 20px auto;
+  background-color: rgb(237, 241, 243);
+  border: 1px solid black;
+  /* border-radius: 15px; */
+}
+
+th,
+td {
+  border: 0.7px solid rgb(44, 34, 34);
+  padding: 8px;
+}
+
+.box {
+  /* margin: 10% auto; */
+}
