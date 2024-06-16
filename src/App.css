@@ -1,3 +1,13 @@
 a {
-  color: rgb(147, 98, 187);
+  box-sizing: border-box;
+  color: rgb(199, 188, 207);
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+.navbar {
+  height: 4rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
